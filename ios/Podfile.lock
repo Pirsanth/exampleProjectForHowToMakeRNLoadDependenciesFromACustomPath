@@ -359,7 +359,7 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
-  - react-native-image-with-progress-bar (from `../modifiedRNLibraries/react-native-image-with-progress-bar`)
+  - react-native-image-with-progress-bar (from `../node_modules/react-native-image-with-progress-bar`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -421,7 +421,7 @@ EXTERNAL SOURCES:
   React-jsinspector:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   react-native-image-with-progress-bar:
-    :path: "../modifiedRNLibraries/react-native-image-with-progress-bar"
+    :path: "../node_modules/react-native-image-with-progress-bar"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
