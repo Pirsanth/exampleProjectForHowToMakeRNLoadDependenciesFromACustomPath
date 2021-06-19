@@ -44,6 +44,8 @@
 //      [self.layer setBorderWidth:1];
       //set the default resize mode
       [self.imageView setContentMode:UIViewContentModeScaleAspectFit];
+
+      [self setBackgroundColor:[UIColor redColor]];
     }
     return self;
 }

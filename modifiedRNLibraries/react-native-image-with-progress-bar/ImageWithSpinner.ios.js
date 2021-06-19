@@ -15,7 +15,7 @@ const NativeComponent = requireNativeComponent('ImageWithSpinner');
 //in dev
 // import processColor from "./node_modules/react-native/Libraries/StyleSheet/processColor.js";
 //in npm module
-import processColor from "../../node_modulesreact-native/Libraries/StyleSheet/processColor.js";
+import processColor from "../../node_modules/react-native/Libraries/StyleSheet/processColor.js";
 
 
 const WrappedComponent = (props) => {    
