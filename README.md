@@ -1,6 +1,6 @@
 # Example project for how to make react-native load third party libraries from a custom path
 
-This example project was made to go with the [following gist]()
+This example project was made to go with the [following gist](https://gist.github.com/Pirsanth/cf201ee3b6cbae5acd504f5b03b20b29).
 
 Please run `npm install&&cd ios&&pod install` after cloning the repo as `node_modules/` and `/ios/Pods/` is included in .gitignore. `./modifiedRNLibraries` contains the modified version of the react-native-image-with-progress-bar library. The original version of the library can be found under the `node_modules` directory. After cloning and running `npm install&&cd ios&&pod install`, when we run `react-native run-android` or `react-native run-ios` the native code and JS code for the react-native-image-with-progress-bar library will be loaded from the `./modifiedRNLibraries/react-native-image-with-progress-bar` directory. To find out how to use the original version of the library, please keep reading.
 
